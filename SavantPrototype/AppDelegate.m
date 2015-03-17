@@ -20,7 +20,7 @@
 
 #define URL( x ) [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes?q=%@&key=AIzaSyCbOE0i2Ka9TUbclHgXEKn91E1b6RDMlfc", x]
 
-//Gama is the "fine-tune" knob behind the recommendation scheme.
+//Gamma is the "fine-tune" knob behind the recommendation scheme.
 //The higher the knob, the tighter the recommendations will be, but
 //you will bump up against the limits of your data much quicker.
 //4 seems to work well.
